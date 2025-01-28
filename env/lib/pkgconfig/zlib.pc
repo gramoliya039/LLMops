@@ -1,0 +1,13 @@
+prefix=/Users/gauravramoliya/Documents/LLMops/venv
+exec_prefix=/Users/gauravramoliya/Documents/LLMops/venv
+libdir=/Users/gauravramoliya/Documents/LLMops/venv/lib
+sharedlibdir=/Users/gauravramoliya/Documents/LLMops/venv/lib
+includedir=/Users/gauravramoliya/Documents/LLMops/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
