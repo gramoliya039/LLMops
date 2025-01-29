@@ -12,22 +12,22 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/Users/gauravramoliya/Documents/LLMops/venv/bin',
- 'BINLIBDEST': '/Users/gauravramoliya/Documents/LLMops/venv/lib/python3.10',
+ 'BINDIR': '/Users/gauravramoliya/Documents/LLMops/env/bin',
+ 'BINLIBDEST': '/Users/gauravramoliya/Documents/LLMops/env/lib/python3.10',
  'BLDLIBRARY': 'libpython3.10.a',
  'BLDSHARED': 'arm64-apple-darwin20.0.0-clang -bundle -undefined '
               'dynamic_lookup '
               ''
               '-Wl,-pie -Wl,-headerpad_max_install_names '
               '-Wl,-dead_strip_dylibs '
-              '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-              '-L/Users/gauravramoliya/Documents/LLMops/venv/lib '
+              '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+              '-L/Users/gauravramoliya/Documents/LLMops/env/lib '
               ''
               ''
               '-Wl,-pie -Wl,-headerpad_max_install_names '
               '-Wl,-dead_strip_dylibs '
-              '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-              '-L/Users/gauravramoliya/Documents/LLMops/venv/lib',
+              '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+              '-L/Users/gauravramoliya/Documents/LLMops/env/lib',
  'BUILDEXE': '.exe',
  'BUILDPYTHON': 'python.exe',
  'BUILD_GNU_TYPE': 'arm64-apple-darwin20.0.0',
@@ -39,14 +39,14 @@ build_time_vars = {'ABIFLAGS': '',
            ''
            '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe '
            '-isystem '
-           '/Users/gauravramoliya/Documents/LLMops/venv/include '
+           '/Users/gauravramoliya/Documents/LLMops/env/include '
            ' '
            ' '
            '-arch arm64  '
            ''
            '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe '
            '-isystem '
-           '/Users/gauravramoliya/Documents/LLMops/venv/include '
+           '/Users/gauravramoliya/Documents/LLMops/env/include '
            ' '
            ' '
            '-arch arm64 ',
@@ -58,7 +58,7 @@ build_time_vars = {'ABIFLAGS': '',
                      ''
                      '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong '
                      '-O2 -pipe -isystem '
-                     '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                     '/Users/gauravramoliya/Documents/LLMops/env/include '
                      ' '
                      ' '
                      '-arch arm64 ',
@@ -71,25 +71,25 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGURE_CPPFLAGS': ''
                        ''
                        '-D_FORTIFY_SOURCE=2 -isystem '
-                       '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                       '/Users/gauravramoliya/Documents/LLMops/env/include '
                        '-mmacosx-version-min=11.1 '
-                       '-I/Users/gauravramoliya/Documents/LLMops/venv/include',
+                       '-I/Users/gauravramoliya/Documents/LLMops/env/include',
  'CONFIGURE_LDFLAGS': ''
                       ''
                       '-Wl,-pie -Wl,-headerpad_max_install_names '
                       '-Wl,-dead_strip_dylibs '
-                      '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-                      '-L/Users/gauravramoliya/Documents/LLMops/venv/lib',
+                      '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+                      '-L/Users/gauravramoliya/Documents/LLMops/env/lib',
  'CONFIGURE_LDFLAGS_NODIST': ' -Wl,-export_dynamic -g',
- 'CONFIG_ARGS': "'--prefix=/Users/gauravramoliya/Documents/LLMops/venv' "
+ 'CONFIG_ARGS': "'--prefix=/Users/gauravramoliya/Documents/LLMops/env' "
                 "'--build=arm64-apple-darwin20.0.0' "
                 "'--host=arm64-apple-darwin20.0.0' '--enable-ipv6' "
                 "'--with-ensurepip=no' "
-                "'--with-tzpath=/Users/gauravramoliya/Documents/LLMops/venv/share/zoneinfo:/Users/gauravramoliya/Documents/LLMops/venv/share/tzinfo' "
+                "'--with-tzpath=/Users/gauravramoliya/Documents/LLMops/env/share/zoneinfo:/Users/gauravramoliya/Documents/LLMops/env/share/tzinfo' "
                 "'--with-computed-gotos' '--with-system-ffi' "
                 "'--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/Users/gauravramoliya/Documents/LLMops/venv/include' "
-                "'--with-tcltk-libs=-L/Users/gauravramoliya/Documents/LLMops/venv/lib "
+                "'--with-tcltk-includes=-I/Users/gauravramoliya/Documents/LLMops/env/include' "
+                "'--with-tcltk-libs=-L/Users/gauravramoliya/Documents/LLMops/env/lib "
                 "-ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-lto' "
                 "'--enable-optimizations' "
                 "'-oldincludedir=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-pb155nxl/python-split_1646301027770/_build_env/arm64-apple-darwin20.0.0/sysroot/usr/include' "
@@ -100,23 +100,23 @@ build_time_vars = {'ABIFLAGS': '',
                 ''
                 '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 '
                 '-pipe -isystem '
-                '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                '/Users/gauravramoliya/Documents/LLMops/env/include '
                 ' '
                 ' '
                 "-arch arm64 ' 'LDFLAGS="
                 ''
                 '-Wl,-pie -Wl,-headerpad_max_install_names '
                 '-Wl,-dead_strip_dylibs '
-                '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-                "-L/Users/gauravramoliya/Documents/LLMops/venv/lib' "
+                '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+                "-L/Users/gauravramoliya/Documents/LLMops/env/lib' "
                 "'CPPFLAGS="
                 ''
                 '-D_FORTIFY_SOURCE=2 -isystem '
-                '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                '/Users/gauravramoliya/Documents/LLMops/env/include '
                 '-mmacosx-version-min=11.1 '
-                "-I/Users/gauravramoliya/Documents/LLMops/venv/include'",
- 'CONFINCLUDEDIR': '/Users/gauravramoliya/Documents/LLMops/venv/include',
- 'CONFINCLUDEPY': '/Users/gauravramoliya/Documents/LLMops/venv/include/python3.10',
+                "-I/Users/gauravramoliya/Documents/LLMops/env/include'",
+ 'CONFINCLUDEDIR': '/Users/gauravramoliya/Documents/LLMops/env/include',
+ 'CONFINCLUDEPY': '/Users/gauravramoliya/Documents/LLMops/env/include/python3.10',
  'COREPYTHONPATH': '',
  'COVERAGE_INFO': '/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-pb155nxl/python-split_1646301027770/work/build-static/coverage.info',
  'COVERAGE_REPORT': '/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-pb155nxl/python-split_1646301027770/work/build-static/lcov-report',
@@ -127,23 +127,23 @@ build_time_vars = {'ABIFLAGS': '',
              ''
              ''
              '-D_FORTIFY_SOURCE=2 -isystem '
-             '/Users/gauravramoliya/Documents/LLMops/venv/include '
+             '/Users/gauravramoliya/Documents/LLMops/env/include '
              '-mmacosx-version-min=11.1 '
-             '-I/Users/gauravramoliya/Documents/LLMops/venv/include '
+             '-I/Users/gauravramoliya/Documents/LLMops/env/include '
              ''
              ''
              '-D_FORTIFY_SOURCE=2 -isystem '
-             '/Users/gauravramoliya/Documents/LLMops/venv/include '
+             '/Users/gauravramoliya/Documents/LLMops/env/include '
              '-mmacosx-version-min=11.1 '
-             '-I/Users/gauravramoliya/Documents/LLMops/venv/include',
+             '-I/Users/gauravramoliya/Documents/LLMops/env/include',
  'CXX': 'arm64-apple-darwin20.0.0-clang++',
- 'DESTDIRS': '/Users/gauravramoliya/Documents/LLMops/venv '
-             '/Users/gauravramoliya/Documents/LLMops/venv/lib '
-             '/Users/gauravramoliya/Documents/LLMops/venv/lib/python3.10 '
-             '/Users/gauravramoliya/Documents/LLMops/venv/lib/python3.10/lib-dynload',
- 'DESTLIB': '/Users/gauravramoliya/Documents/LLMops/venv/lib/python3.10',
+ 'DESTDIRS': '/Users/gauravramoliya/Documents/LLMops/env '
+             '/Users/gauravramoliya/Documents/LLMops/env/lib '
+             '/Users/gauravramoliya/Documents/LLMops/env/lib/python3.10 '
+             '/Users/gauravramoliya/Documents/LLMops/env/lib/python3.10/lib-dynload',
+ 'DESTLIB': '/Users/gauravramoliya/Documents/LLMops/env/lib/python3.10',
  'DESTPATH': '',
- 'DESTSHARED': '/Users/gauravramoliya/Documents/LLMops/venv/lib/python3.10/lib-dynload',
+ 'DESTSHARED': '/Users/gauravramoliya/Documents/LLMops/env/lib/python3.10/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README.rst ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -606,12 +606,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'arm64-apple-darwin20.0.0',
- 'INCLDIRSTOMAKE': '/Users/gauravramoliya/Documents/LLMops/venv/include '
-                   '/Users/gauravramoliya/Documents/LLMops/venv/include '
-                   '/Users/gauravramoliya/Documents/LLMops/venv/include/python3.10 '
-                   '/Users/gauravramoliya/Documents/LLMops/venv/include/python3.10',
- 'INCLUDEDIR': '/Users/gauravramoliya/Documents/LLMops/venv/include',
- 'INCLUDEPY': '/Users/gauravramoliya/Documents/LLMops/venv/include/python3.10',
+ 'INCLDIRSTOMAKE': '/Users/gauravramoliya/Documents/LLMops/env/include '
+                   '/Users/gauravramoliya/Documents/LLMops/env/include '
+                   '/Users/gauravramoliya/Documents/LLMops/env/include/python3.10 '
+                   '/Users/gauravramoliya/Documents/LLMops/env/include/python3.10',
+ 'INCLUDEDIR': '/Users/gauravramoliya/Documents/LLMops/env/include',
+ 'INCLUDEPY': '/Users/gauravramoliya/Documents/LLMops/env/include/python3.10',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -624,35 +624,35 @@ build_time_vars = {'ABIFLAGS': '',
                 'dynamic_lookup',
  'LDFLAGS': ''
             '-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-            '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-            '-L/Users/gauravramoliya/Documents/LLMops/venv/lib '
+            '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+            '-L/Users/gauravramoliya/Documents/LLMops/env/lib '
             ''
             '-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-            '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-            '-L/Users/gauravramoliya/Documents/LLMops/venv/lib',
+            '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+            '-L/Users/gauravramoliya/Documents/LLMops/env/lib',
  'LDLIBRARY': 'libpython3.10.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'arm64-apple-darwin20.0.0-clang -bundle -undefined dynamic_lookup '
              ''
              '-Wl,-pie '
              '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-             '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-             '-L/Users/gauravramoliya/Documents/LLMops/venv/lib '
+             '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+             '-L/Users/gauravramoliya/Documents/LLMops/env/lib '
              ''
              '-Wl,-pie '
              '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-             '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-             '-L/Users/gauravramoliya/Documents/LLMops/venv/lib',
+             '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+             '-L/Users/gauravramoliya/Documents/LLMops/env/lib',
  'LDVERSION': '3.10',
  'LIBC': '',
- 'LIBDEST': '/Users/gauravramoliya/Documents/LLMops/venv/lib/python3.10',
- 'LIBDIR': '/Users/gauravramoliya/Documents/LLMops/venv/lib',
+ 'LIBDEST': '/Users/gauravramoliya/Documents/LLMops/env/lib/python3.10',
+ 'LIBDIR': '/Users/gauravramoliya/Documents/LLMops/env/lib',
  'LIBFFI_INCLUDEDIR': '',
  'LIBM': '',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/Users/gauravramoliya/Documents/LLMops/venv/lib/pkgconfig',
- 'LIBPL': '/Users/gauravramoliya/Documents/LLMops/venv/lib/python3.10/config-3.10-darwin',
+ 'LIBPC': '/Users/gauravramoliya/Documents/LLMops/env/lib/pkgconfig',
+ 'LIBPL': '/Users/gauravramoliya/Documents/LLMops/env/lib/python3.10/config-3.10-darwin',
  'LIBPYTHON': '',
  'LIBRARY': 'libpython3.10.a',
  'LIBRARY_DEPS': 'libpython3.10.a',
@@ -672,13 +672,13 @@ build_time_vars = {'ABIFLAGS': '',
  'LOCALMODLIBS': '',
  'MACHDEP': 'darwin',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/Users/gauravramoliya/Documents/LLMops/venv/lib/python3.10',
+ 'MACHDESTLIB': '/Users/gauravramoliya/Documents/LLMops/env/lib/python3.10',
  'MACOSX_DEPLOYMENT_TARGET': '11.1',
  'MAINCC': 'arm64-apple-darwin20.0.0-clang',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': '/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-pb155nxl/python-split_1646301027770/work/Modules/makesetup',
- 'MANDIR': '/Users/gauravramoliya/Documents/LLMops/venv/share/man',
+ 'MANDIR': '/Users/gauravramoliya/Documents/LLMops/env/share/man',
  'MKDIR_P': '/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-pb155nxl/python-split_1646301027770/work/install-sh '
             '-c -d',
  'MODBUILT_NAMES': 'posix  errno  pwd  _sre  _codecs  _weakref  _functools  '
@@ -705,8 +705,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MVWDELCH_IS_EXPRESSION': 1,
  'NO_AS_NEEDED': '',
  'OBJECT_OBJS': '\\',
- 'OPENSSL_INCLUDES': '-I/Users/gauravramoliya/Documents/LLMops/venv/include',
- 'OPENSSL_LDFLAGS': '-L/Users/gauravramoliya/Documents/LLMops/venv/lib',
+ 'OPENSSL_INCLUDES': '-I/Users/gauravramoliya/Documents/LLMops/env/include',
+ 'OPENSSL_LDFLAGS': '-L/Users/gauravramoliya/Documents/LLMops/env/lib',
  'OPENSSL_LIBS': '-lssl -lcrypto',
  'OPENSSL_RPATH': '',
  'OPT': '-DNDEBUG -g -fwrapv -O2 -Wall',
@@ -750,14 +750,14 @@ build_time_vars = {'ABIFLAGS': '',
                              ''
                              '-ftree-vectorize -fPIC -fPIE '
                              '-fstack-protector-strong -O2 -pipe -isystem '
-                             '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                             '/Users/gauravramoliya/Documents/LLMops/env/include '
                              ' '
                              ' '
                              '-arch arm64  '
                              ''
                              '-ftree-vectorize -fPIC -fPIE '
                              '-fstack-protector-strong -O2 -pipe -isystem '
-                             '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                             '/Users/gauravramoliya/Documents/LLMops/env/include '
                              ' '
                              ' '
                              '-arch arm64   -std=c99 -Wextra '
@@ -773,29 +773,29 @@ build_time_vars = {'ABIFLAGS': '',
                              ''
                              ''
                              '-D_FORTIFY_SOURCE=2 -isystem '
-                             '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                             '/Users/gauravramoliya/Documents/LLMops/env/include '
                              '-mmacosx-version-min=11.1 '
-                             '-I/Users/gauravramoliya/Documents/LLMops/venv/include '
+                             '-I/Users/gauravramoliya/Documents/LLMops/env/include '
                              ''
                              ''
                              '-D_FORTIFY_SOURCE=2 -isystem '
-                             '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                             '/Users/gauravramoliya/Documents/LLMops/env/include '
                              '-mmacosx-version-min=11.1 '
-                             '-I/Users/gauravramoliya/Documents/LLMops/venv/include '
+                             '-I/Users/gauravramoliya/Documents/LLMops/env/include '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG '
               '-g -fwrapv -O2 -Wall '
               ''
               '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe '
               '-isystem '
-              '/Users/gauravramoliya/Documents/LLMops/venv/include '
+              '/Users/gauravramoliya/Documents/LLMops/env/include '
               ' '
               ' '
               '-arch arm64  '
               ''
               '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe '
               '-isystem '
-              '/Users/gauravramoliya/Documents/LLMops/venv/include '
+              '/Users/gauravramoliya/Documents/LLMops/env/include '
               ' '
               ' '
               '-arch arm64 ',
@@ -811,14 +811,14 @@ build_time_vars = {'ABIFLAGS': '',
                    ''
                    '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 '
                    '-pipe -isystem '
-                   '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                   '/Users/gauravramoliya/Documents/LLMops/env/include '
                    ' '
                    ' '
                    '-arch arm64  '
                    ''
                    '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 '
                    '-pipe -isystem '
-                   '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                   '/Users/gauravramoliya/Documents/LLMops/env/include '
                    ' '
                    ' '
                    '-arch arm64   -std=c99 -Wextra '
@@ -832,57 +832,57 @@ build_time_vars = {'ABIFLAGS': '',
                    ''
                    ''
                    '-D_FORTIFY_SOURCE=2 -isystem '
-                   '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                   '/Users/gauravramoliya/Documents/LLMops/env/include '
                    '-mmacosx-version-min=11.1 '
-                   '-I/Users/gauravramoliya/Documents/LLMops/venv/include '
+                   '-I/Users/gauravramoliya/Documents/LLMops/env/include '
                    ''
                    ''
                    '-D_FORTIFY_SOURCE=2 -isystem '
-                   '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                   '/Users/gauravramoliya/Documents/LLMops/env/include '
                    '-mmacosx-version-min=11.1 '
-                   '-I/Users/gauravramoliya/Documents/LLMops/venv/include '
+                   '-I/Users/gauravramoliya/Documents/LLMops/env/include '
                    '-DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': ''
                     ''
                     '-Wl,-pie -Wl,-headerpad_max_install_names '
                     '-Wl,-dead_strip_dylibs '
-                    '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-                    '-L/Users/gauravramoliya/Documents/LLMops/venv/lib '
+                    '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+                    '-L/Users/gauravramoliya/Documents/LLMops/env/lib '
                     ''
                     ''
                     '-Wl,-pie -Wl,-headerpad_max_install_names '
                     '-Wl,-dead_strip_dylibs '
-                    '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-                    '-L/Users/gauravramoliya/Documents/LLMops/venv/lib '
+                    '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+                    '-L/Users/gauravramoliya/Documents/LLMops/env/lib '
                     ' -Wl,-export_dynamic -g',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-pb155nxl/python-split_1646301027770/work/Include '
                 ''
                 ''
                 '-D_FORTIFY_SOURCE=2 -isystem '
-                '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                '/Users/gauravramoliya/Documents/LLMops/env/include '
                 '-mmacosx-version-min=11.1 '
-                '-I/Users/gauravramoliya/Documents/LLMops/venv/include '
+                '-I/Users/gauravramoliya/Documents/LLMops/env/include '
                 ''
                 ''
                 '-D_FORTIFY_SOURCE=2 -isystem '
-                '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                '/Users/gauravramoliya/Documents/LLMops/env/include '
                 '-mmacosx-version-min=11.1 '
-                '-I/Users/gauravramoliya/Documents/LLMops/venv/include',
+                '-I/Users/gauravramoliya/Documents/LLMops/env/include',
  'PY_ENABLE_SHARED': 0,
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': ''
                ''
                '-Wl,-pie -Wl,-headerpad_max_install_names '
                '-Wl,-dead_strip_dylibs '
-               '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-               '-L/Users/gauravramoliya/Documents/LLMops/venv/lib '
+               '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+               '-L/Users/gauravramoliya/Documents/LLMops/env/lib '
                ''
                ''
                '-Wl,-pie -Wl,-headerpad_max_install_names '
                '-Wl,-dead_strip_dylibs '
-               '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/venv/lib '
-               '-L/Users/gauravramoliya/Documents/LLMops/venv/lib',
+               '-Wl,-rpath,/Users/gauravramoliya/Documents/LLMops/env/lib '
+               '-L/Users/gauravramoliya/Documents/LLMops/env/lib',
  'PY_LDFLAGS_NODIST': ' -Wl,-export_dynamic -g',
  'PY_SSL_DEFAULT_CIPHERS': 1,
  'PY_SSL_DEFAULT_CIPHER_STRING': 0,
@@ -891,14 +891,14 @@ build_time_vars = {'ABIFLAGS': '',
                         ''
                         '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong '
                         '-O2 -pipe -isystem '
-                        '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                        '/Users/gauravramoliya/Documents/LLMops/env/include '
                         ' '
                         ' '
                         '-arch arm64  '
                         ''
                         '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong '
                         '-O2 -pipe -isystem '
-                        '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                        '/Users/gauravramoliya/Documents/LLMops/env/include '
                         ' '
                         ' '
                         '-arch arm64   -std=c99 -Wextra '
@@ -913,15 +913,15 @@ build_time_vars = {'ABIFLAGS': '',
                         ''
                         ''
                         '-D_FORTIFY_SOURCE=2 -isystem '
-                        '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                        '/Users/gauravramoliya/Documents/LLMops/env/include '
                         '-mmacosx-version-min=11.1 '
-                        '-I/Users/gauravramoliya/Documents/LLMops/venv/include '
+                        '-I/Users/gauravramoliya/Documents/LLMops/env/include '
                         ''
                         ''
                         '-D_FORTIFY_SOURCE=2 -isystem '
-                        '/Users/gauravramoliya/Documents/LLMops/venv/include '
+                        '/Users/gauravramoliya/Documents/LLMops/env/include '
                         '-mmacosx-version-min=11.1 '
-                        '-I/Users/gauravramoliya/Documents/LLMops/venv/include',
+                        '-I/Users/gauravramoliya/Documents/LLMops/env/include',
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 0,
  'Py_HASH_ALGORITHM': 0,
@@ -931,7 +931,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/Users/gauravramoliya/Documents/LLMops/venv/lib',
+ 'SCRIPTDIR': '/Users/gauravramoliya/Documents/LLMops/env/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SGI_ABI': '',
  'SHELL': '/bin/sh',
@@ -969,8 +969,8 @@ build_time_vars = {'ABIFLAGS': '',
  'SUBDIRSTOO': 'Include Lib Misc',
  'SYSLIBS': '',
  'SYS_SELECT_WITH_SYS_TIME': 1,
- 'TCLTK_INCLUDES': '-I/Users/gauravramoliya/Documents/LLMops/venv/include',
- 'TCLTK_LIBS': '-L/Users/gauravramoliya/Documents/LLMops/venv/lib '
+ 'TCLTK_INCLUDES': '-I/Users/gauravramoliya/Documents/LLMops/env/include',
+ 'TCLTK_LIBS': '-L/Users/gauravramoliya/Documents/LLMops/env/lib '
                '-ltcl8.6 -ltk8.6',
  'TESTOPTS': '',
  'TESTPATH': '',
@@ -984,7 +984,7 @@ build_time_vars = {'ABIFLAGS': '',
  'TIMEMODULE_LIB': 0,
  'TIME_WITH_SYS_TIME': 1,
  'TM_IN_SYS_TIME': 0,
- 'TZPATH': '/Users/gauravramoliya/Documents/LLMops/venv/share/zoneinfo:/Users/gauravramoliya/Documents/LLMops/venv/share/tzinfo',
+ 'TZPATH': '/Users/gauravramoliya/Documents/LLMops/env/share/zoneinfo:/Users/gauravramoliya/Documents/LLMops/env/share/tzinfo',
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
  'UPDATE_FILE': '/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-pb155nxl/python-split_1646301027770/work/Tools/scripts/update_file.py',
@@ -1006,7 +1006,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-pb155nxl/python-split_1646301027770/work/build-static',
  'abs_srcdir': '/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-pb155nxl/python-split_1646301027770/work',
- 'datarootdir': '/Users/gauravramoliya/Documents/LLMops/venv/share',
- 'exec_prefix': '/Users/gauravramoliya/Documents/LLMops/venv',
- 'prefix': '/Users/gauravramoliya/Documents/LLMops/venv',
+ 'datarootdir': '/Users/gauravramoliya/Documents/LLMops/env/share',
+ 'exec_prefix': '/Users/gauravramoliya/Documents/LLMops/env',
+ 'prefix': '/Users/gauravramoliya/Documents/LLMops/env',
  'srcdir': '/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-pb155nxl/python-split_1646301027770/work'}

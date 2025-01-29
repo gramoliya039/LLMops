@@ -1,4 +1,4 @@
-#!/Users/gauravramoliya/Documents/LLMops/venv/bin/python3.10
+#!/Users/gauravramoliya/Documents/LLMops/env/bin/python3.10
 # -*- python -*-
 
 # Keep this script in sync with python-config.sh.in

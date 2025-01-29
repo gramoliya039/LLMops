@@ -5,10 +5,10 @@
 # You can do whatever you want with this file.
 #
 
-prefix=/Users/gauravramoliya/Documents/LLMops/venv
-exec_prefix=/Users/gauravramoliya/Documents/LLMops/venv
-libdir=/Users/gauravramoliya/Documents/LLMops/venv/lib
-includedir=/Users/gauravramoliya/Documents/LLMops/venv/include
+prefix=/Users/gauravramoliya/Documents/LLMops/env
+exec_prefix=/Users/gauravramoliya/Documents/LLMops/env
+libdir=/Users/gauravramoliya/Documents/LLMops/env/lib
+includedir=/Users/gauravramoliya/Documents/LLMops/env/include
 
 Name: liblzma
 Description: General purpose data compression library

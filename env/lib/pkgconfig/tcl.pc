@@ -1,8 +1,8 @@
 # tcl pkg-config source file
 
-prefix=/Users/gauravramoliya/Documents/LLMops/venv
-exec_prefix=/Users/gauravramoliya/Documents/LLMops/venv
-libdir=/Users/gauravramoliya/Documents/LLMops/venv/lib
+prefix=/Users/gauravramoliya/Documents/LLMops/env
+exec_prefix=/Users/gauravramoliya/Documents/LLMops/env
+libdir=/Users/gauravramoliya/Documents/LLMops/env/lib
 includedir=${prefix}/include
 libfile=libtcl8.6.dylib
 
